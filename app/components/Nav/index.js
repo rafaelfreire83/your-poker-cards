@@ -2,13 +2,13 @@ import React from 'react';
 import { View, Text } from 'react-native';
 import styles from './styles';
 
-const Header = (props) => {
+const Nav = (props) => {
   const { text, onPress } = props;
   return (
-    <View style={styles.button}>
+    <View style={styles.nav}>
 
     </View>
   );
 };
 
-export default Header;
+export default Nav;
